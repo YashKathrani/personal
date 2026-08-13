@@ -3,19 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yash Kathrani | Mechanical Engineer</title>
+    <title>Yash Kathrani | Mechanical Engineering & Robotics</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <svg style="display:none" aria-hidden="true">
+        <defs>
+            <symbol id="icon-fusion360" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/>
+                <path d="M4 7.5l8 4.5 8-4.5"/>
+                <path d="M12 12v9"/>
+            </symbol>
+            <symbol id="icon-solidworks" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 16c0-3 2-5 5-5s5 2 5 5"/>
+                <path d="M4 19c1.5-5 5-8 8-8s6.5 3 8 8"/>
+                <circle cx="12" cy="7" r="2"/>
+            </symbol>
+            <symbol id="icon-cad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 20l7-14 7 14"/>
+                <path d="M7 12h6"/>
+                <circle cx="17.5" cy="17.5" r="3"/>
+            </symbol>
+            <symbol id="icon-print3d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l3 5h-6l3-5z"/>
+                <path d="M6 11h12"/>
+                <path d="M7 14h10"/>
+                <path d="M8 17h8"/>
+                <path d="M9 20h6"/>
+            </symbol>
+            <symbol id="icon-cnc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 3v4"/>
+                <path d="M9 7h4l1 3H8l1-3z"/>
+                <path d="M8.5 10l1 9h5l1-9"/>
+                <path d="M9 13h6"/>
+                <path d="M9.5 16h5"/>
+            </symbol>
+            <symbol id="icon-wireedm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 3v18"/>
+                <path d="M19 3v18"/>
+                <path d="M5 12l4-3-2 3 4-2-2 4 5-2-2 3 4-1"/>
+            </symbol>
+            <symbol id="icon-gdt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="7"/>
+                <path d="M7.5 16.5l9-9"/>
+            </symbol>
+            <symbol id="icon-inspection" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4v6h6"/>
+                <path d="M20 20v-6h-6"/>
+                <path d="M4 4l7 7"/>
+                <path d="M20 20l-7-7"/>
+            </symbol>
+            <symbol id="icon-drawings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h13l3 3v13H4z"/>
+                <path d="M17 4v3h3"/>
+                <path d="M7 11h10"/>
+                <path d="M7 15h7"/>
+            </symbol>
+            <symbol id="icon-cpp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 4L4 8v8l5 4"/>
+                <path d="M15 4l5 4v8l-5 4"/>
+                <path d="M14 11h3M15.5 9.5v3"/>
+                <path d="M19 11h2.5"/>
+            </symbol>
+            <symbol id="icon-arduino" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 8a4 4 0 100 8 6 6 0 005-3 6 6 0 015-3 4 4 0 110 8 6 6 0 01-5-3 6 6 0 00-5-3"/>
+            </symbol>
+            <symbol id="icon-raspi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="6" width="16" height="13" rx="1.5"/>
+                <circle cx="9" cy="12.5" r="1.6"/>
+                <circle cx="15" cy="12.5" r="1.6"/>
+                <path d="M7 6V3.5M10 6V3.5M14 6V3.5M17 6V3.5"/>
+            </symbol>
+            <symbol id="icon-esp32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="6" y="6" width="12" height="12" rx="1"/>
+                <path d="M3 9h3M3 12h3M3 15h3M18 9h3M18 12h3M18 15h3M9 3v3M12 3v3M15 3v3M9 18v3M12 18v3M15 18v3"/>
+                <path d="M15 7.5a4 4 0 010 5.5" opacity="0"/>
+            </symbol>
+            <symbol id="icon-embedded" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="7" y="7" width="10" height="10" rx="1"/>
+                <rect x="10" y="10" width="4" height="4"/>
+                <path d="M4 9h3M4 15h3M17 9h3M17 15h3M9 4v3M15 4v3M9 17v3M15 17v3"/>
+            </symbol>
+            <symbol id="icon-pid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 12a8 8 0 1114 5.3"/>
+                <path d="M14 20l4-2.5-1.5-4"/>
+            </symbol>
+            <symbol id="icon-sensors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="18" r="1.6"/>
+                <path d="M8.5 14.5a5 5 0 017 0"/>
+                <path d="M5.5 11.5a9 9 0 0113 0"/>
+            </symbol>
+            <symbol id="icon-stepper" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>
+            </symbol>
+            <symbol id="icon-electronics" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 12h4l2-5 4 10 2-5h6"/>
+            </symbol>
+            <symbol id="icon-soldering" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 4l-9 9"/>
+                <path d="M17.5 1.5l5 5"/>
+                <circle cx="9.5" cy="15.5" r="1" fill="currentColor"/>
+                <path d="M8 14l-4 4 2 2 4-4"/>
+            </symbol>
+            <symbol id="icon-python" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3c-3 0-4 1.3-4 3v2h4"/>
+                <path d="M8 8h5c2 0 3 1 3 3v2c0 1.5-1 2-2 2h-4c-2 0-3 1-3 3v2"/>
+                <path d="M12 21c3 0 4-1.3 4-3v-2h-4"/>
+                <circle cx="9" cy="5.5" r="0.6" fill="currentColor" stroke="none"/>
+                <circle cx="15" cy="18.5" r="0.6" fill="currentColor" stroke="none"/>
+            </symbol>
+            <symbol id="icon-opencv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="7.5" r="3"/>
+                <circle cx="6.5" cy="16.5" r="3"/>
+                <circle cx="17.5" cy="16.5" r="3"/>
+            </symbol>
+            <symbol id="icon-visioneye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6z"/>
+                <circle cx="12" cy="12" r="2.6"/>
+            </symbol>
+            <symbol id="icon-ai" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l1.6 5.4L19 10l-5.4 1.6L12 17l-1.6-5.4L5 10l5.4-1.6L12 3z"/>
+                <path d="M19 15l0.7 2.3L22 18l-2.3 0.7L19 21l-0.7-2.3L16 18l2.3-0.7L19 15z"/>
+            </symbol>
+            <symbol id="icon-git" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="6" cy="6" r="2"/>
+                <circle cx="6" cy="18" r="2"/>
+                <circle cx="18" cy="12" r="2"/>
+                <path d="M6 8v8"/>
+                <path d="M6 12c0-3 3-3 8-3.5"/>
+                <path d="M16 10.5L18 10.5"/>
+            </symbol>
+        </defs>
+    </svg>
+
     <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
             <a href="#" class="logo">Yash Kathrani</a>
             <div class="nav-menu" id="navMenu">
                 <a href="#home" onclick="closeMenu()">Home</a>
-                <a href="#projects" onclick="closeMenu()">Projects</a>
                 <a href="#experience" onclick="closeMenu()">Experience</a>
-                
+                <a href="#featured-work" onclick="closeMenu()">Featured Work</a>
+                <a href="#skills" onclick="closeMenu()">Skills</a>
+                <a href="#more-projects" onclick="closeMenu()">Projects</a>
+                <a href="#leadership" onclick="closeMenu()">Leadership</a>
+                <a href="#education" onclick="closeMenu()">Education</a>
+                <a href="#contact" onclick="closeMenu()">Contact</a>
             </div>
             <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
         </div>
@@ -24,320 +158,90 @@
     <!-- Hero/About Combined -->
     <section id="home">
         <div class="container">
-            <h1>Yash Kathrani</h1>
-            <h2>Mechanical Engineer</h2>
-            <p class="bio">18-year-old high school senior pursuing a 4-year engineering degree. Completed 10+ projects, led robotics teams to World Championships, won 6+ hackathons, and built AI-powered systems deployed in real classrooms. Seeking Summer 2026 engineering internships.</p>
-            
-            <div class="contact-info">
-                <a href="mailto:yash.kathrani768@gmail.com">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                    yash.kathrani768@gmail.com
-                </a>
-                <span>•</span>
-                <a href="tel:510-890-6370">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                    </svg>
-                    510-890-6370
-                </a>
-                <span>•</span>
-                <a href="https://www.linkedin.com/in/yashkathrani/" target="_blank">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                        <rect x="2" y="9" width="4" height="12"></rect>
-                        <circle cx="4" cy="4" r="2"></circle>
-                    </svg>
-                    LinkedIn
-                </a>
+            <div class="hero-text">
+                <div class="latest-badge">
+                    <span class="latest-badge-dot"></span>
+                    Latest: Engineering Intern @ End2End Manufacturing
+                </div>
+                <h1>Yash Kathrani</h1>
+                <h2>Mechanical Engineering @ UC Riverside <span class="tagline-divider">|</span> Robotics · Mechatronics · Computer Vision</h2>
+                <p class="bio">I build robots and intelligent hardware that interact with the real world. Incoming Mechanical Engineering student at UC Riverside, working at the intersection of mechanical design, embedded systems, controls, and computer vision, from competition robots to AI-powered devices, taken from CAD through prototyping, programming, and testing.</p>
+
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">12+</span>
+                        <span class="hero-stat-label">Hackathon Wins</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">World's</span>
+                        <span class="hero-stat-label">VEX Robotics Qualifier</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">10+</span>
+                        <span class="hero-stat-label">Physical Systems Built</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">30+</span>
+                        <span class="hero-stat-label">3D Printing Clients</span>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <a href="mailto:yash.kathrani768@gmail.com">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        yash.kathrani768@gmail.com
+                    </a>
+                    <span>•</span>
+                    <a href="tel:510-890-6370">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        510-890-6370
+                    </a>
+                    <span>•</span>
+                    <a href="https://www.linkedin.com/in/yashkathrani/" target="_blank">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+
             </div>
 
-            <div class="skills-section">
-                <h3>Core Skills</h3>
-                <div class="skills-tags">
-                    <span>Python</span>
-                    <span>Artificial Intelligence (AI)</span>
-                    <span>WordPress</span>
-                    <span>Excel</span>
-                    <span>PowerPoint</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>CAD</span>
-                    <span>Communication</span>
-                    <span>User Interface Design</span>
-                    <span>Web Development</span>
-                    <span>Engineering</span>
-                    <span>Autodesk Fusion 360</span>
-                    <span>Adobe Photoshop</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Timeline -->
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            
-            <div class="timeline">
-                <!-- 2026 Projects -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="year">2026</div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <!-- Rosetta MD -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/rosetta.jpg" alt="Rosetta MD">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>Rosetta MD <span class="award">CruzHacks Winner</span></h3>
-                                <p>Medical translation device converting clinical jargon to patient-friendly language using AI. Won at CruzHacks 2026, including Autodesk Award. Designed custom 3D-printed housing in Fusion 360. Portable hardware with ESP32, digital microphone, OLED display, web app, rechargeable battery system.</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>CAD</span>
-                                    <span>ESP32</span>
-                                    <span>AI/ML</span>
-                                    <span>Web Dev</span>
-                                </div>
-                                <a href="https://devpost.com/software/rosettamd" target="_blank">View Project →</a>
-                            </div>
-                        </div>
-
-                        <!-- CHEHRA -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/chehra.jpg" alt="CHEHRA">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>CHEHRA</h3>
-                                <p>Facial recognition attendance system with full touchscreen display powered by Orange Pi. Designed and 3D-printed custom 10-inch housing through 6 iterations; full-stack web app (OpenCV, Python, React Native).</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>CAD</span>
-                                    <span>Python</span>
-                                    <span>React Native</span>
-                                    <span>OpenCV</span>
-                                </div>
-                                <a href="https://devpost.com/software/chehra" target="_blank">View Project →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 2025 Projects -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="year">2025</div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <!-- LITIGATR -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/litigatr.jpg" alt="LITIGATR">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>LITIGATR <span class="award">East Bay Hackathon Winner</span></h3>
-                                <p>Courtroom check-in kiosk with facial recognition. Designed custom 3D-printed shell in Fusion 360 with modular cutouts for components. Raspberry Pi 4B handles face recognition, ESP32 LCD displays info, Arduino controls LED/buzzer feedback.</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>CAD</span>
-                                    <span>Raspberry Pi</span>
-                                    <span>ESP32</span>
-                                    <span>Arduino</span>
-                                </div>
-                                <a href="https://devpost.com/software/litigatr" target="_blank" class="project-link">View Project →</a>
-                            </div>
-                        </div>
-
-                        <!-- PillPass -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/pillpass.jpg" alt="PillPass">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>PillPass <span class="award">CruzHacks - Best Hardware Hack</span></h3>
-                                <p>Smart pill dispenser with facial recognition for seniors. Won at CruzHacks 2025. Designed and 3D printed custom dispenser housing in Fusion 360 for multi-user medication schedules. ESP32, Raspberry Pi, Arduino embedded control. Full-stack web app with Node backend.</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>CAD</span>
-                                    <span>ESP32</span>
-                                    <span>Raspberry Pi</span>
-                                    <span>Node.js</span>
-                                </div>
-                                <a href="https://devpost.com/software/pillpass-v037sc" target="_blank">View Project →</a>
-                            </div>
-                        </div>
-
-                        <!-- Class Pass -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/classpass.jpg" alt="Class Pass">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>Class Pass <span class="award">LG Hacks Winner</span></h3>
-                                <p>Raspberry Pi facial recognition system for school lunch check-in. Designed and 3D-printed portable, durable housing in Fusion 360. Streamlines cafeteria operations and reduces wait times with automated attendance.</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>CAD</span>
-                                    <span>Raspberry Pi</span>
-                                    <span>Python</span>
-                                </div>
-                                <a href="https://devpost.com/software/class-pass" target="_blank" class="project-link">View Project →</a>
-                            </div>
-                        </div>
-
-                        <!-- Doze Watch -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/dozewatch.jpg" alt="Doze Watch">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>Doze Watch <span class="award">Viking Hacks Winner</span></h3>
-                                <p>Driver drowsiness detection system using eye tracking. Designed and 3D-printed custom car mount in Fusion 360. Real-time camera monitoring with instant alerts to prevent accidents caused by fatigue.</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>CAD</span>
-                                    <span>OpenCV</span>
-                                    <span>Python</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- BlazeWatch -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/blazewatch.jpg" alt="BlazeWatch">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>BlazeWatch</h3>
-                                <p>Early wildfire detection system. Designed and 3D-printed custom sensor housing in Fusion 360. Webcam integrated with temperature and humidity sensors. Detection algorithm with instant mobile alerts. Inspired by LA wildfires.</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>CAD</span>
-                                    <span>Arduino</span>
-                                    <span>Python</span>
-                                </div>
-                                <a href="https://devpost.com/software/blazewatch" target="_blank">View Project →</a>
-                            </div>
-                        </div>
-
-                        <!-- Intelliwaste -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/intelliwaste.jpg" alt="Intelliwaste">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>Intelliwaste <span class="award">1st Place - $2.5K Funding</span></h3>
-                                <p>Waste-collection route optimization product that mounts inside trash cans to track fill levels. 1st place at Central Valley Business Expo. Designed and 3D printed custom casing and mount in Fusion 360. ESP32 prototype with infrared, weight, moisture sensors. 12-month mentorship secured with BBSI.</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>ESP32</span>
-                                    <span>IoT</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 2024 Projects -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="year">2024</div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <!-- Smart Irrigation -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/smart-irrigation.jpg" alt="Smart Irrigation System">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>Smart Irrigation System <span class="award">STEMist Hacks III Winner</span></h3>
-                                <p>Arduino-based automated watering system. Designed and 3D-printed custom enclosure in Fusion 360 for weather-resistant installation. Soil moisture sensors with weather data integration for optimized irrigation scheduling.</p>
-                                <div class="tech">
-                                    <span>Fusion 360</span>
-                                    <span>3D Printing</span>
-                                    <span>CAD</span>
-                                    <span>Arduino</span>
-                                    <span>IoT</span>
-                                </div>
-                                <a href="https://devpost.com/software/smart-irrigation-u3jm96" target="_blank" class="project-link">View Project →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 2023 Projects -->
-                <div class="timeline-item">
-                    <div class="timeline-marker">
-                        <div class="year">2023</div>
-                        <div class="line"></div>
-                    </div>
-                    <div class="timeline-content">
-                        <!-- ISS Tracker -->
-                        <div class="project-card">
-                            <div class="project-img">
-                                <div class="img-wrapper">
-                                    <img src="https://raw.githubusercontent.com/billybob76892/siteeeeeeeee/refs/heads/main/iss-tracker.jpg" alt="ISS Tracker">
-                                </div>
-                            </div>
-                            <div class="project-info">
-                                <h3>Smart ISS Tracker <span class="award">NASA Space Apps Winner</span></h3>
-                                <p>Open-source mobile app tracking ISS in real-time, nearby asteroids, active earthquakes. Won NASA Space Apps Hackathon 2023.</p>
-                                <div class="tech">
-                                    <span>Mobile Dev</span>
-                                    <span>API Integration</span>
-                                    <span>UI/UX</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="profile-photo">
+                <img src="profile.png" alt="Yash Kathrani">
             </div>
         </div>
     </section>
 
-    <!-- Experience -->
+
+    <!-- Professional Experience -->
     <section id="experience">
         <div class="container">
-            <h2 class="section-title">Experience & Leadership</h2>
-            
-            <h3 class="subsection-title">Work Experience</h3>
+            <h2 class="section-title">Professional Experience</h2>
             <div class="experience-timeline">
                 <div class="exp-item">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Engineering Intern</h3>
+                            <p class="exp-org">End2End Manufacturing | Fremont, CA</p>
+                        </div>
+                        <p class="exp-date">Summer 2026</p>
+                    </div>
+                    <ul class="exp-details">
+                        <li>Hands-on exposure to CNC milling and Wire EDM in a precision manufacturing environment</li>
+                        <li>Worked with GD&T, engineering drawings, and inspection equipment under ISO 9001 quality processes</li>
+                        <li>Learned tolerancing, quality control workflows, and how designs hand off from engineering to production</li>
+                    </ul>
+                </div>
+
+                <div class="exp-item exp-item-compact">
                     <div class="exp-header">
                         <div>
                             <h3>Robotics & Chess Coach</h3>
@@ -346,23 +250,647 @@
                         <p class="exp-date">Summer 2025</p>
                     </div>
                     <ul class="exp-details">
-                        <li>Taught robotics to 40+ students in two age groups (6-8 and 8+), creating full curriculum and introducing engineering concepts</li>
-                        <li>Guided students through weekly hands-on projects and builds</li>
-                        <li>Taught chess to same age groups, developing lessons and teaching new players from scratch</li>
-                        <li>Led strategy and gameplay sessions</li>
+                        <li>Taught robotics and chess curriculum to 40+ students across two age groups</li>
+                        <li>Guided weekly hands-on builds and led strategy/gameplay sessions</li>
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <h3 class="subsection-title">Leadership</h3>
+    <!-- Featured Work -->
+    <section id="featured-work">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <p class="projects-intro">The engineering I'm most proud of: physical systems taken from CAD through fabrication, controls, and testing.</p>
+
+            <div class="featured-projects">
+
+                <!-- VEX Robotics Robot -->
+                <article class="project-featured">
+                    <div class="pf-image pf-image-dual">
+                        <figure>
+                            <img src="VEXPhysicalRobot.png" alt="Physical VEX competition robot">
+                            <figcaption>Physical</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="VEXRobotCAD.png" alt="VEX robot Fusion 360 CAD model">
+                            <figcaption>CAD</figcaption>
+                        </figure>
+                    </div>
+                    <div class="pf-body">
+                        <div class="pf-header">
+                            <h3>VEX Robotics Robot</h3>
+                            <span class="award">World Championship Qualifier</span>
+                        </div>
+                        <p class="pf-tagline">As team captain, I led the design and code for this competition robot, taking it from Fusion 360 CAD to a VEX Worlds qualification.</p>
+                        <div class="tech">
+                            <span>Competition Robotics</span>
+                            <span>CAD</span>
+                            <span>Mechanical Design</span>
+                            <span>Controls</span>
+                        </div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>VEX's 2024-25 "High Stakes" season: score rings on stakes (up to 3 points each) and climb a central ladder structure (up to 12 points) on a 12x12ft field, inside an 18x18x18in robot size limit.</p>
+
+                                <h4>Design</h4>
+                                <p>As team captain of Team 19359A, I led the mechanical design and directed the robot's programming, working with our team to brainstorm scoring mechanisms including an over-under flex-wheel intake, hook- and hood-style mobile-goal scoring, and a first-class-lever clamp to grab mobile goals from the field edge, targeting roughly 450 RPM through a 36-48 tooth drivetrain ratio for a ~10in wide base.</p>
+
+                                <h4>CAD</h4>
+                                <p>Modeled the full robot in Fusion 360 subsystem by subsystem: drive base, clamp, wall risers, a two-stage intake, a wall-stake scoring mechanism, and a climbing mechanism, each iterated through multiple CAD revisions (the clamp alone went through a V1 and V2) before being built.</p>
+
+                                <h4>Build</h4>
+                                <p>Manufactured and assembled each subsystem in sequence, including a ratchet mechanism for the climb, integrating them into a complete competition robot.</p>
+
+                                <h4>Controls</h4>
+                                <p>I led development of the control software: programmed in C++ on the PROS framework with the LemLib motion library, tuning PID control for autonomous movement and driver-assist macros.</p>
+
+                                <h4>Testing & Iteration</h4>
+                                <p>Built and refined multiple autonomous routes (a solo autonomous win-point route, positive- and negative-side routes, a goal-rush route, elimination routes, and a dedicated skills route), developed a custom route-visualization tool to plan paths, and logged technical difficulties and fixes after every competition.</p>
+
+                                <h4>Competition</h4>
+                                <p>Competed through a full season of qualifiers and skills events and qualified for the VEX Robotics World Championship.</p>
+
+                                <h4>Tech Stack</h4>
+                                <div class="tech">
+                                    <span>Fusion 360</span>
+                                    <span>CAD</span>
+                                    <span>C++</span>
+                                    <span>PROS</span>
+                                    <span>LemLib</span>
+                                    <span>PID Control</span>
+                                    <span>Mechanism Design</span>
+                                </div>
+
+                                <a href="https://docs.google.com/presentation/d/19EcCUgFpA95tMllOOGASNbaDIuFwBJ5kLb9Xe44t_QE/edit" target="_blank" class="notebook-link">Engineering Notebook ↗</a>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+
+                <!-- FTC Robotics Robot -->
+                <article class="project-featured">
+                    <div class="pf-image pf-image-dual">
+                        <figure>
+                            <img src="FTCPhysicalRobot.png" alt="Physical FTC competition robot">
+                            <figcaption>Physical</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="FTCRobotCAD.png" alt="FTC robot CAD model with linear-slide scoring arm">
+                            <figcaption>CAD</figcaption>
+                        </figure>
+                    </div>
+                    <div class="pf-body">
+                        <div class="pf-header">
+                            <h3>FTC Robotics Robot</h3>
+                            <span class="award">Tournament Champion · State Qualifier</span>
+                        </div>
+                        <p class="pf-tagline">As team captain, I led the design and code for this CNC-machined FTC robot, built around a 4-stage linear-slide scoring arm.</p>
+                        <div class="tech">
+                            <span>Competition Robotics</span>
+                            <span>CAD</span>
+                            <span>Mechanical Design</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>FTC's "Into the Deep" season: intake game samples from a submersible play area and score them quickly and precisely, with cycle time as the main constraint.</p>
+
+                                <h4>Design</h4>
+                                <p>As team captain of Cyber Tech #20720, I led the mechanical design and directed the robot's programming, designing a mecanum-drive robot around two main subassemblies with our team: a sample intake and a linear-slide scoring arm, built to work around the game's central obstacle, the submersible.</p>
+
+                                <h4>CAD</h4>
+                                <p>Modeled the full robot digitally, then validated the design with laser-cut wood chassis prototypes to confirm the CAD model was accurate before committing to final materials.</p>
+
+                                <h4>Build</h4>
+                                <p>Custom-CNC'd the mecanum chassis out of aluminum for stability, with pocketing to cut weight while preserving structural integrity for the linear slides. Built a two-hook climbing mechanism on vertical linear slides, driven by 435 RPM motors.</p>
+
+                                <h4>Mechanism Design</h4>
+                                <p>Iterated the intake through surgical-tubing, boot-wheel, and Gekko-wheel designs before settling on 72mm Gekko wheels (driven by 290 RPM servos) feeding a scoring arm mounted on a 4-stage Misumi linear-slide system, extended by a servo-powered 5-stage scissor linkage.</p>
+
+                                <h4>Controls</h4>
+                                <p>I directed the control software: programmed autonomous and driver-assist behavior in Java using Roadrunner and PID heading control for drift-free movement, with TensorFlow Lite and OpenCV for object detection and REV through-bore encoders for accurate linear-slide positioning.</p>
+
+                                <h4>Testing & Iteration</h4>
+                                <p>Used MeepMeep to visualize and tune trajectories, adjusted PID constants (kV, kA, kStatic) to match measured against target velocity curves, and iterated based on competition results, including switching to custom-trained object detection and upgrading to more accurate through-bore encoders after early accuracy issues.</p>
+
+                                <h4>Competition</h4>
+                                <p>Consistently scored 40+ points in the 30-second autonomous period and won Tournament Champion as Winning Alliance Captain, qualifying for the state tournament.</p>
+
+                                <h4>Tech Stack</h4>
+                                <div class="tech">
+                                    <span>Fusion 360</span>
+                                    <span>CAD</span>
+                                    <span>CNC Machining</span>
+                                    <span>Java</span>
+                                    <span>Roadrunner</span>
+                                    <span>PID Control</span>
+                                    <span>TensorFlow Lite</span>
+                                    <span>OpenCV</span>
+                                </div>
+
+                                <a href="https://canva.link/xx6b4t43u3su0ke" target="_blank" class="notebook-link">Engineering Notebook ↗</a>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+
+                <!-- Brailed -->
+                <article class="project-featured">
+                    <div class="pf-image">
+                        <img src="brailed-01.png" alt="Brailed phone-mounted Braille keyboard">
+                    </div>
+                    <div class="pf-body">
+                        <div class="pf-header">
+                            <h3>Brailed</h3>
+                            <span class="award">2nd Place, JacHacks SF 2026</span>
+                        </div>
+                        <p class="pf-tagline">A phone-mounted Braille keyboard that lets you control your phone privately, by touch alone.</p>
+                        <div class="tech">
+                            <span>Embedded Systems</span>
+                            <span>Accessibility Hardware</span>
+                            <span>BLE</span>
+                            <span>Physical Interface</span>
+                        </div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Overview</h4>
+                                <p>Brailed is a phone-mounted Braille keyboard and agentic smartphone controller our team built to make smartphone interaction more accessible and more private.</p>
+
+                                <h4>Problem</h4>
+                                <p>Touchscreen interaction is a real barrier for blind and low-vision users, and voice control isn't always private or practical in public settings.</p>
+
+                                <h4>System Architecture</h4>
+                                <div class="case-diagram">
+                                    <img src="brailed-02.svg" alt="Brailed system diagram: tactile keypad, ESP32, Bluetooth, Android app, and Jac agent">
+                                </div>
+
+                                <h4>Hardware</h4>
+                                <p>Six capacitive touch sensors represent Braille inputs, read by an ESP32 that handles chord detection, with an OLED providing device status and feedback, all built into a custom 3D-printed frame that mounts to the phone.</p>
+
+                                <h4>Software</h4>
+                                <p>The ESP32 communicates with the phone over BLE GATT, and an Android companion app (Kotlin) translates Braille chords into phone actions. AI-driven commands run through the Jac language and byLLM, constrained by structured capability restrictions so model output can't directly trigger unrestricted phone actions.</p>
+
+                                <h4>Engineering Challenges</h4>
+                                <p>Reliable capacitive chord detection, keeping BLE communication responsive enough for real-time typing, and constraining AI output to a safe, structured action set were the core problems our team solved.</p>
+
+                                <h4>Result</h4>
+                                <p>Won 2nd Place at JacHacks SF 2026.</p>
+
+                                <h4>Tech Stack</h4>
+                                <div class="tech">
+                                    <span>ESP32</span>
+                                    <span>C++</span>
+                                    <span>Capacitive Touch</span>
+                                    <span>BLE GATT</span>
+                                    <span>OLED</span>
+                                    <span>Android</span>
+                                    <span>Kotlin</span>
+                                    <span>Jac</span>
+                                    <span>byLLM</span>
+                                    <span>Fusion 360</span>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+
+                <!-- CHEHRA -->
+                <article class="project-featured">
+                    <div class="pf-image">
+                        <img src="chehra-01.jpg" alt="CHEHRA facial recognition attendance devices">
+                    </div>
+                    <div class="pf-body">
+                        <div class="pf-header">
+                            <h3>CHEHRA</h3>
+                            <span class="award">~96% Accuracy · 250+ Check-ins</span>
+                        </div>
+                        <p class="pf-tagline">A facial-recognition attendance system tested across two real classroom pilots, not just a hackathon demo.</p>
+                        <div class="tech">
+                            <span>Computer Vision</span>
+                            <span>Embedded Hardware</span>
+                            <span>CAD</span>
+                            <span>Real-World Deployment</span>
+                        </div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Overview</h4>
+                                <p>CHEHRA is a physical facial-recognition attendance system our team built and deployed for real classroom use, developed across 2025 and 2026.</p>
+
+                                <h4>Problem</h4>
+                                <p>School check-ins are slow and outdated: students forget IDs, lines back up, and staff lose time manually tracking who's present.</p>
+
+                                <h4>Hardware</h4>
+                                <p>An Orange Pi drives a camera and display through a custom PCB, mounted in a custom Fusion 360 enclosure with dedicated camera and display mounts. The hardware went through more than ten enclosure iterations.</p>
+
+                                <h4>Software</h4>
+                                <p>Python and OpenCV handle facial recognition on the Orange Pi. A React Native app provides the interface, and Supabase stores registered users and attendance logs.</p>
+
+                                <h4>Engineering Challenges</h4>
+                                <p>Camera angle, enclosure fit, classroom lighting, component positioning, startup reliability, logging reliability, and recognition accuracy all had to be solved for a device that runs unattended, every day, in a real classroom.</p>
+
+                                <h4>Results</h4>
+                                <p>Approximately 96% recognition accuracy, more than 250 classroom check-ins logged, and testing through two real classroom pilots.</p>
+
+                                <h4>Tech Stack</h4>
+                                <div class="tech">
+                                    <span>Orange Pi</span>
+                                    <span>Python</span>
+                                    <span>OpenCV</span>
+                                    <span>React Native</span>
+                                    <span>Supabase</span>
+                                    <span>PCB Design</span>
+                                    <span>Fusion 360</span>
+                                    <span>3D Printing</span>
+                                </div>
+
+                                <a href="https://devpost.com/software/chehra" target="_blank" class="project-link">View on Devpost →</a>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+
+                <!-- PillPass -->
+                <article class="project-featured">
+                    <div class="pf-image">
+                        <img src="pillpass-01.jpg" alt="PillPass facial recognition medication dispenser">
+                    </div>
+                    <div class="pf-body">
+                        <div class="pf-header">
+                            <h3>PillPass</h3>
+                            <span class="award">Best Hardware Hack, CruzHacks 2025</span>
+                        </div>
+                        <p class="pf-tagline">A facial-recognition medication dispenser with the pill pathway and electronics deliberately kept apart.</p>
+                        <div class="tech">
+                            <span>Mechatronics</span>
+                            <span>Computer Vision</span>
+                            <span>Stepper Actuation</span>
+                            <span>CAD</span>
+                        </div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Overview</h4>
+                                <p>PillPass is a facial-recognition medication dispenser our team built in about 36 hours at CruzHacks 2025.</p>
+
+                                <h4>Problem</h4>
+                                <p>Seniors managing multiple medications need a dispenser that recognizes the right user and enforces the right schedule, without added complexity.</p>
+
+                                <h4>Hardware</h4>
+                                <p>A Raspberry Pi handles facial recognition, while an ESP32 and Arduino coordinate a stepper-motor-driven dispensing mechanism and a TFT display.</p>
+
+                                <h4>Mechanical Design</h4>
+                                <p>The chassis was designed around the pill channel, the stepper motor, the display, and the electronics, with serviceability in mind. The pill pathway was kept physically separate from the electronics bay so nothing jammed or interfered, and the motor and display mounts were iterated quickly enough to assemble, test, and adjust during the hackathon.</p>
+
+                                <h4>Engineering Challenges</h4>
+                                <p>Keeping the medication pathway aligned with the motor-driven mechanism while leaving enough room for the electronics was the central mechanical challenge, on top of the usual hackathon time pressure.</p>
+
+                                <h4>Result</h4>
+                                <p>Won Best Hardware Hack at CruzHacks 2025.</p>
+
+                                <h4>Tech Stack</h4>
+                                <div class="tech">
+                                    <span>Raspberry Pi</span>
+                                    <span>ESP32</span>
+                                    <span>Arduino</span>
+                                    <span>Python</span>
+                                    <span>C++</span>
+                                    <span>Stepper Motor</span>
+                                    <span>TFT Display</span>
+                                    <span>Fusion 360</span>
+                                    <span>3D Printing</span>
+                                </div>
+
+                                <a href="https://devpost.com/software/pillpass-v037sc" target="_blank" class="project-link">View on Devpost →</a>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-chip-groups">
+                <div class="skill-group">
+                    <h3>Mechanical & Manufacturing</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/autodesk" alt="">Fusion 360</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-solidworks"/></svg>SolidWorks</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-cad"/></svg>CAD</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-print3d"/></svg>3D Printing</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-cnc"/></svg>CNC Machining</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-wireedm"/></svg>Wire EDM</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-gdt"/></svg>GD&T</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-inspection"/></svg>Precision Inspection</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-drawings"/></svg>Engineering Drawings</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Robotics & Embedded</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/cplusplus" alt="">C++</span>
+                        <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/arduino" alt="">Arduino</span>
+                        <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/raspberrypi" alt="">Raspberry Pi</span>
+                        <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/espressif" alt="">ESP32</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-embedded"/></svg>Embedded Systems</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-pid"/></svg>PID Control</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-sensors"/></svg>Sensors</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-stepper"/></svg>Stepper Motors</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-electronics"/></svg>Electronics</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-soldering"/></svg>Soldering</span>
+                    </div>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Vision & Software</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/python" alt="">Python</span>
+                        <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/opencv" alt="">OpenCV</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-visioneye"/></svg>Computer Vision</span>
+                        <span class="skill-chip"><svg class="skill-icon"><use href="#icon-ai"/></svg>AI Integration</span>
+                        <span class="skill-chip"><img class="skill-icon" src="https://cdn.simpleicons.org/git" alt="">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Projects -->
+    <section id="more-projects">
+        <div class="container">
+            <h2 class="section-title">More Projects</h2>
+            <p class="projects-intro">Additional builds spanning hackathons, embedded devices, and computer vision.</p>
+            <div class="more-projects-grid">
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="rosettamd-01.jpg" alt="RosettaMD handheld medical translation device"></div>
+                    <div class="pe-body">
+                        <h5>RosettaMD <span class="award">Best Hardware Hack, CruzHacks 2026</span></h5>
+                        <p>Handheld device that translates clinical jargon into patient-friendly language in real time.</p>
+                        <div class="tech"><span>ESP32</span><span>FastAPI</span><span>RFID</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Patients often leave clinical conversations without fully understanding their care instructions, since medical language is dense and delivered quickly.</p>
+                                <h4>Approach</h4>
+                                <p>Built a portable ESP32 device with a MEMS microphone, RFID reader, and OLED display, paired with a FastAPI backend that simplifies captured clinical speech while preserving dosage and timing details, iterating from a breadboard prototype to a finished 3D-printed handheld enclosure.</p>
+                                <h4>Result</h4>
+                                <p>Won Best Hardware Hack and the Autodesk Award at CruzHacks 2026.</p>
+                            </div>
+                        </details>
+                        <a href="https://devpost.com/software/rosettamd" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="conjr-01.jpg" alt="CONJR voice-to-3D-printing kiosk"></div>
+                    <div class="pe-body">
+                        <h5>CONJR <span class="award">Best Use of You.com, WizardHacks 2026</span></h5>
+                        <p>Voice-to-3D-manufacturing kiosk that turns a spoken request into a sliced, printable part.</p>
+                        <div class="tech"><span>Physical AI</span><span>OpenSCAD</span><span>3D Printing</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Going from a spoken idea to a physical printed object normally requires manually modeling the part in CAD software.</p>
+                                <h4>Approach</h4>
+                                <p>Built a dual-workflow system on an Orange Pi 5 Pro kiosk: Meshy AI and Three.js for creative objects, and You.com, Tavily, Llama 3.3, OpenSCAD, and CuraEngine for dimensioned engineering parts, sent to a Neptune 4 Pro 3D printer.</p>
+                                <h4>Result</h4>
+                                <p>Won Best Use of You.com at WizardHacks 2026, built in about seven hours.</p>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="shakti-02.jpg" alt="Shakti AI strength-training coaching device"></div>
+                    <div class="pe-body">
+                        <h5>Shakti <span class="award">1st Place, BISV Hacks 2026</span></h5>
+                        <p>AI-assisted strength-training coach turning pose-estimation keypoints into usable feedback.</p>
+                        <div class="tech"><span>Computer Vision</span><span>MoveNet</span><span>React</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Raw pose-estimation output like joint keypoints isn't useful feedback for someone actually trying to fix their lifting form.</p>
+                                <h4>Approach</h4>
+                                <p>Used MoveNet to track body position during strength training, then Qwen3-8B to translate that raw keypoint data into plain-language coaching feedback for both athletes and coaches, delivered through a React interface.</p>
+                                <h4>Result</h4>
+                                <p>Won 1st Place at BISV Hacks 2026.</p>
+                            </div>
+                        </details>
+                        <a href="https://devpost.com/software/shakti-u6j4qn" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="argus-01.png" alt="Argus RFID debate tournament assistant"></div>
+                    <div class="pe-body">
+                        <h5>Argus <span class="award">1st Place, AeroHacks 2026</span></h5>
+                        <p>RFID-based debate tournament assistant for check-in, timing, and judge notes.</p>
+                        <div class="tech"><span>ESP32</span><span>RFID</span><span>Supabase</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Debate tournaments juggle competitor check-in, speech timing, case files, and judge notes across disconnected paper and spreadsheet systems.</p>
+                                <h4>Approach</h4>
+                                <p>Built an ESP32 and RFID reader for fast physical check-in, with Arduino and Python services syncing records to a Supabase backend, separating quick physical interactions from persistent digital data.</p>
+                                <h4>Result</h4>
+                                <p>Won 1st Place at AeroHacks 2026.</p>
+                            </div>
+                        </details>
+                        <a href="https://devpost.com/software/argus-aibdc1?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="doze-watch-01.jpg" alt="Doze Watch driver drowsiness detection prototype"></div>
+                    <div class="pe-body">
+                        <h5>Doze Watch <span class="award">2nd Place, VikingHacks 2025</span></h5>
+                        <p>Driver-drowsiness detection using real-time eye-state tracking, not single-frame reactions.</p>
+                        <div class="tech"><span>OpenCV</span><span>Python</span><span>3D Printing</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Drivers often don't recognize their own drowsiness in time to react, and false alarms from single-frame detection erode trust in a warning system.</p>
+                                <h4>Approach</h4>
+                                <p>Used Python and OpenCV to track eye state continuously, distinguishing a normal blink from sustained eye closure by weighing repeated measurements, mounted in a custom 3D-printed camera mount for a consistent viewing angle.</p>
+                                <h4>Result</h4>
+                                <p>Won 2nd Place at VikingHacks 2025.</p>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="litigatr-01.jpg" alt="LITIGATR courtroom check-in kiosk"></div>
+                    <div class="pe-body">
+                        <h5>LITIGATR <span class="award">1st Place, East Bay Hackathon 2025</span></h5>
+                        <p>Courtroom check-in kiosk that replaced paper rosters with facial recognition.</p>
+                        <div class="tech"><span>Raspberry Pi</span><span>ESP32</span><span>Arduino</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Courtrooms still rely on paper rosters and manual check-in, which is slow and error-prone.</p>
+                                <h4>Approach</h4>
+                                <p>Built a face-recognition kiosk running face-api.js on a Raspberry Pi 4B, an ESP32-driven touchscreen for case info, and Arduino-controlled LED/buzzer feedback, split into independently-testable modules to fit a one-weekend build.</p>
+                                <h4>Result</h4>
+                                <p>Won 1st Place at the East Bay Hackathon.</p>
+                            </div>
+                        </details>
+                        <a href="https://devpost.com/software/litigatr" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="class-pass-01.jpg" alt="Class Pass portable school attendance kiosk"></div>
+                    <div class="pe-body">
+                        <h5>Class Pass <span class="award">2nd Place, LG Hacks 2025</span></h5>
+                        <p>Portable facial-recognition kiosk for touchless school lunch attendance.</p>
+                        <div class="tech"><span>Raspberry Pi</span><span>Fusion 360</span><span>Python</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Manual ID scanning for school lunch lines is slow and error-prone.</p>
+                                <h4>Approach</h4>
+                                <p>Raspberry Pi running OpenCV for real-time facial recognition, tuned to hold up across varying lighting conditions, housed in a portable Fusion 360 enclosure built for consistent camera positioning.</p>
+                                <h4>Result</h4>
+                                <p>Won 2nd Place at LG Hacks 2025.</p>
+                            </div>
+                        </details>
+                        <a href="https://devpost.com/software/class-pass" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="blazewatch-01.jpg" alt="BlazeWatch wildfire detection prototype"></div>
+                    <div class="pe-body">
+                        <h5>BlazeWatch</h5>
+                        <p>Wildfire-detection prototype combining camera vision with temperature/humidity sensing.</p>
+                        <div class="tech"><span>Computer Vision</span><span>Sensor Fusion</span><span>IoT</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Computer vision alone creates false positives from lighting or color changes, while environmental sensors alone can't visually confirm fire.</p>
+                                <h4>Approach</h4>
+                                <p>Combined a webcam feed with temperature and humidity sensors, fusing multiple inputs rather than relying on a single sensing method to flag wildfire indicators.</p>
+                                <h4>Result</h4>
+                                <p>Built a working prototype with a mobile alert system.</p>
+                            </div>
+                        </details>
+                        <a href="https://devpost.com/software/blazewatch" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="intellewaste-01.jpg" alt="Intellewaste sensor-equipped waste bin prototype"></div>
+                    <div class="pe-body">
+                        <h5>Intellewaste <span class="award">1st Place</span></h5>
+                        <p>IoT waste-bin prototype tracking fill level, weight, and moisture inside trash cans. Won $2,500 in funding to develop the project further.</p>
+                        <div class="tech"><span>ESP32</span><span>IoT</span><span>Sensor Fusion</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Waste-collection routes are typically run on fixed schedules rather than actual need, wasting fuel and labor on partially-full bins.</p>
+                                <h4>Approach</h4>
+                                <p>Built an ESP32-based prototype combining infrared, load-cell, and moisture sensors inside trash cans to identify fill level, weight, and wet waste, then pitched it to more than ten municipalities and consulting firms.</p>
+                                <h4>Result</h4>
+                                <p>Won 1st place at the Central Valley Business Expo, securing $2,500 in funding to continue development.</p>
+                            </div>
+                        </details>
+                        <a href="https://www.instagram.com/p/DCH8oZ2BIlc/" target="_blank" class="project-link">View Post →</a>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="smart-irrigation-01.jpg" alt="Smart Irrigation Arduino and sensor system"></div>
+                    <div class="pe-body">
+                        <h5>Smart Irrigation <span class="award">3rd Place, STEMist Hacks III 2024</span></h5>
+                        <p>Automated plant-watering system driven by soil moisture and environmental sensors.</p>
+                        <div class="tech"><span>Arduino</span><span>Fusion 360</span><span>Sensors</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Water scarcity and inconsistent soil moisture readings make efficient, low-cost irrigation difficult to get right for home gardeners.</p>
+                                <h4>Approach</h4>
+                                <p>Arduino Uno-based system using a DHT11 sensor and soil moisture sensor to monitor conditions, automatically triggering relay-controlled pumps below a moisture threshold, with an LCD for live feedback and a weather-resistant Fusion 360 enclosure.</p>
+                                <h4>Result</h4>
+                                <p>Won 3rd Place at STEMist Hacks III.</p>
+                            </div>
+                        </details>
+                        <a href="https://devpost.com/software/smart-irrigation-u3jm96" target="_blank" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-earlier">
+                    <div class="pe-image"><img src="iss-tracker.jpg" alt="ISS Tracker mobile app"></div>
+                    <div class="pe-body">
+                        <h5>Smart ISS Tracker <span class="award">NASA Space Apps Winner</span></h5>
+                        <p>Open-source mobile app tracking the ISS, nearby asteroids, and active earthquakes.</p>
+                        <div class="tech"><span>Mobile Dev</span><span>API Integration</span></div>
+                        <details class="case-study-full">
+                            <summary>View Case Study</summary>
+                            <div class="case-content">
+                                <h4>Challenge</h4>
+                                <p>Real-time space situational data like ISS location, nearby asteroids, and active earthquakes wasn't easily available together in one accessible app.</p>
+                                <h4>Approach</h4>
+                                <p>Built an open-source mobile app integrating multiple public APIs to track the ISS in real time alongside near-Earth asteroids and active earthquakes.</p>
+                                <h4>Result</h4>
+                                <p>Won the NASA Space Apps Hackathon 2023.</p>
+                            </div>
+                        </details>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Engineering Experience -->
+    <section id="leadership">
+        <div class="container">
+            <h2 class="section-title">Leadership & Engineering Experience</h2>
             <div class="experience-timeline">
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Team Captain</h3>
+                            <p class="exp-org">VEX Robotics | Mountain House High</p>
+                        </div>
+                        <p class="exp-date">September 2021 - May 2026</p>
+                    </div>
+                    <ul class="exp-details">
+                        <li>Led the team to its 1st World Championship qualification in school history (Worlds 2022 & 2025, States 2024 & 2026)</li>
+                        <li>Helped raise $48,000+ for the program and grow it to 6 teams and 50+ members</li>
+                        <li>Earned a Google-sponsored Community Challenge Award for community impact through robotics</li>
+                    </ul>
+                </div>
+
                 <div class="exp-item">
                     <div class="exp-header">
                         <div>
                             <h3>President <button class="role-toggle">▼</button></h3>
                             <p class="exp-org">MHHS Robotics Club</p>
                         </div>
-                        <p class="exp-date">October 2023 - Present</p>
+                        <p class="exp-date">October 2023 - May 2026</p>
                     </div>
                     <div class="role-history">
                         <div class="role-timeline">
@@ -370,7 +898,7 @@
                                 <div class="role-dot"></div>
                                 <div class="role-content">
                                     <strong>President</strong>
-                                    <span>2024 - Present</span>
+                                    <span>2024 - May 2026</span>
                                 </div>
                             </div>
                             <div class="role-item">
@@ -384,7 +912,6 @@
                     </div>
                     <ul class="exp-details">
                         <li>Organize 6 VEX robotics teams for 50+ members</li>
-                        <li>Raised $49,000 over two years for robotics purchases</li>
                         <li>Directed citywide STEM summer camp with curriculum for 200+ K-8 students</li>
                         <li>Tested and interviewed 282 applicants over 2 years; increased club interest by 48%</li>
                     </ul>
@@ -393,26 +920,10 @@
                 <div class="exp-item">
                     <div class="exp-header">
                         <div>
-                            <h3>Team Captain</h3>
-                            <p class="exp-org">VEX Robotics | Mountain House High</p>
-                        </div>
-                        <p class="exp-date">September 2021 - Present</p>
-                    </div>
-                    <ul class="exp-details">
-                        <li>Led team to 1st World Championship qualification in school history</li>
-                        <li>Designed complete robot in Fusion 360; programmed with C++, PID, odometry</li>
-                        <li>Earned Google-sponsored Community Challenge Award at 2025 World Championships</li>
-                        <li>World Championships 2022 & 2025, State Championships 2024 & 2026</li>
-                    </ul>
-                </div>
-
-                <div class="exp-item">
-                    <div class="exp-header">
-                        <div>
                             <h3>Team Captain <button class="role-toggle">▼</button></h3>
-                            <p class="exp-org">First Tech Challenge</p>
+                            <p class="exp-org">First Tech Challenge | Cyber Tech #20720</p>
                         </div>
-                        <p class="exp-date">January 2023 - Present</p>
+                        <p class="exp-date">January 2023 - May 2026</p>
                     </div>
                     <div class="role-history">
                         <div class="role-timeline">
@@ -434,7 +945,6 @@
                     </div>
                     <ul class="exp-details">
                         <li>Raised $8,000+ including $2,500 from competitive grants; led team to first state qualification</li>
-                        <li>Designed robot with Fusion 360 utilizing machined metals and 3D-printed parts</li>
                         <li>Won Tournament Champion as Winning Alliance Captain</li>
                         <li>Earned FTC Motivate Award for outstanding outreach (25K+ online views, 8K+ reached)</li>
                         <li>Taught Python workshop to 40+ students ($1.1K+ raised); coached 2 middle school teams</li>
@@ -447,7 +957,7 @@
                             <h3>Lead Hackathon Organizer <button class="role-toggle">▼</button></h3>
                             <p class="exp-org">MHHS Hackathon Club</p>
                         </div>
-                        <p class="exp-date">September 2024 - Present</p>
+                        <p class="exp-date">September 2024 - May 2026</p>
                     </div>
                     <div class="role-history">
                         <div class="role-timeline">
@@ -455,7 +965,7 @@
                                 <div class="role-dot"></div>
                                 <div class="role-content">
                                     <strong>Lead Hackathon Organizer</strong>
-                                    <span>2024 - Present</span>
+                                    <span>2024 - May 2026</span>
                                 </div>
                             </div>
                             <div class="role-item">
@@ -479,11 +989,11 @@
                             <h3>Founder & Lead Engineer</h3>
                             <p class="exp-org">CHEHRA</p>
                         </div>
-                        <p class="exp-date">2024 - Present</p>
+                        <p class="exp-date">2024 - May 2026</p>
                     </div>
                     <ul class="exp-details">
-                        <li>Built facial recognition attendance system with full touchscreen display powered by Orange Pi</li>
-                        <li>Designed and 3D-printed custom 10-inch housing through 6 iterations; full-stack web app (OpenCV, Python, React Native)</li>
+                        <li>Founded and lead the team building CHEHRA's facial recognition attendance system</li>
+                        <li>Directed 10+ enclosure iterations and coordinated hardware, CV, and app development</li>
                     </ul>
                 </div>
 
@@ -493,7 +1003,7 @@
                             <h3>Web Developer</h3>
                             <p class="exp-org">ServingHandz</p>
                         </div>
-                        <p class="exp-date">July 2023 - Present</p>
+                        <p class="exp-date">July 2023 - May 2026</p>
                     </div>
                     <ul class="exp-details">
                         <li>Built full-stack platform with 5K+ monthly visits connecting donors with homeless-outreach nonprofits</li>
@@ -507,7 +1017,7 @@
                             <h3>Founder</h3>
                             <p class="exp-org">Central Valley Printing</p>
                         </div>
-                        <p class="exp-date">2023 - Present</p>
+                        <p class="exp-date">2023 - May 2026</p>
                     </div>
                     <ul class="exp-details">
                         <li>Founded city's first 3D printing service; earned $1,250+ designing custom projects</li>
@@ -519,9 +1029,9 @@
                     <div class="exp-header">
                         <div>
                             <h3>Founder & Lead Engineer</h3>
-                            <p class="exp-org">Intelliwaste</p>
+                            <p class="exp-org">Intellewaste</p>
                         </div>
-                        <p class="exp-date">2024 - Present</p>
+                        <p class="exp-date">2024 - May 2026</p>
                     </div>
                     <ul class="exp-details">
                         <li>1st place at Central Valley Business Expo; received $2,500 funding and 12-month mentorship</li>
@@ -535,7 +1045,7 @@
                             <h3>Volunteering</h3>
                             <p class="exp-org">FIRST Robotics & Science Olympiad</p>
                         </div>
-                        <p class="exp-date">2023 - Present</p>
+                        <p class="exp-date">2023 - May 2026</p>
                     </div>
                     <ul class="exp-details">
                         <li>445+ volunteer hours: Directed 2 FIRST Robotics teams (1 qualified for States); coached 4 Science Olympiad teams</li>
@@ -544,38 +1054,37 @@
                 </div>
             </div>
 
-            <div class="awards-section">
-                <h3>Awards & Recognition</h3>
-                <div class="awards-grid">
-                    <div class="award-item">
-                        <h4>VEX Community Challenge Winner & World's Qualifier</h4>
-                        <p class="award-org">VEX Robotics - Google-Sponsored International Award</p>
-                        <p>Selected as finalist from 73 global submissions. Won Google-sponsored paid registration to 2025 VEX World Championship for community impact through robotics</p>
-                    </div>
-                    
-                    <div class="award-item">
-                        <h4>YBV International Business Challenge Finalist</h4>
-                        <p class="award-org">UC Berkeley - 1,000+ Participants</p>
-                        <p>Designed and 3D modeled ML-guided industrial dishwasher in Fusion 360. Produced prototypes and led technical pitch on efficiency, cost, and market viability</p>
-                    </div>
-                    
-                    <div class="award-item">
-                        <h4>CruzHacks 2025 Best Hardware Hack Award</h4>
-                        <p class="award-org">1st Place - Collegiate Hackathon, 300+ Competitors</p>
-                        <p>Developed PillPass facial recognition medication system. Built with ESP32, Raspberry Pi, Arduino. 3D printed custom dispenser</p>
-                    </div>
-                    
-                    <div class="award-item">
-                        <h4>FTC Tournament Champion & State Qualifier</h4>
-                        <p class="award-org">Winning Alliance Captain</p>
-                        <p>Led alliance to tournament championship as mechanical lead. Custom robot design with Fusion 360, CNC aluminum, and 3D-printed parts</p>
-                    </div>
-                    
-                    <div class="award-item">
-                        <h4>SkillsUSA Web Design State & Regional Finalist</h4>
-                        <p class="award-org">3rd Place State (32 teams), 1st Place Regional (20 teams)</p>
-                        <p>Built complete website from case study in 4 hours. Developed with HTML, CSS, JS, responsive design, and SEO optimizations</p>
-                    </div>
+            <h3 class="subsection-title awards-subtitle">Awards & Recognition</h3>
+            <div class="awards-grid">
+                <div class="award-item">
+                    <h4>VEX Community Challenge Winner & World's Qualifier</h4>
+                    <p class="award-org">VEX Robotics - Google-Sponsored International Award</p>
+                    <p>Selected as finalist from 73 global submissions for community impact through robotics</p>
+                </div>
+                <div class="award-item">
+                    <h4>CruzHacks 2026 Best Hardware Hack Award</h4>
+                    <p class="award-org">1st Place - Collegiate Hackathon</p>
+                    <p>Developed RosettaMD, an AI-powered medical translation device, also earning the Autodesk Award</p>
+                </div>
+                <div class="award-item">
+                    <h4>CruzHacks 2025 Best Hardware Hack Award</h4>
+                    <p class="award-org">1st Place - Collegiate Hackathon, 300+ Competitors</p>
+                    <p>Developed PillPass facial recognition medication system with a stepper-motor dispensing mechanism</p>
+                </div>
+                <div class="award-item">
+                    <h4>FTC Tournament Champion & State Qualifier</h4>
+                    <p class="award-org">Winning Alliance Captain</p>
+                    <p>Led alliance to tournament championship as team captain; custom robot design with Fusion 360, CNC aluminum, and 3D-printed parts</p>
+                </div>
+                <div class="award-item">
+                    <h4>YBV International Business Challenge Finalist</h4>
+                    <p class="award-org">UC Berkeley - 1,000+ Participants</p>
+                    <p>Designed and 3D modeled ML-guided industrial dishwasher in Fusion 360; led technical pitch</p>
+                </div>
+                <div class="award-item">
+                    <h4>SkillsUSA Web Design State & Regional Finalist</h4>
+                    <p class="award-org">3rd Place State (32 teams), 1st Place Regional (20 teams)</p>
+                    <p>Built complete website from case study in 4 hours with responsive design and SEO</p>
                 </div>
             </div>
         </div>
@@ -585,37 +1094,79 @@
     <section id="education">
         <div class="container">
             <h2 class="section-title">Education</h2>
-            
+
             <div class="education-list">
-                <div class="edu-item">
+                <div class="edu-item edu-item-primary">
+                    <div class="edu-header">
+                        <div>
+                            <h3>University of California, Riverside</h3>
+                            <p class="edu-program">B.S. Mechanical Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subsection-title prior-education-title">Prior Education</h3>
+            <div class="education-list education-list-prior">
+                <div class="edu-item edu-item-compact">
                     <div class="edu-header">
                         <div>
                             <h3>Mountain House High School, CA</h3>
-                            <p class="edu-program">Engineering Pathway • Currently Enrolled (12th Grade)</p>
+                            <p class="edu-program">Engineering Pathway</p>
                         </div>
-                        <p class="edu-date">Expected: May 2026</p>
                     </div>
                 </div>
 
-                <div class="edu-item">
+                <div class="edu-item edu-item-compact">
                     <div class="edu-header">
                         <div>
                             <h3>San Joaquin Delta College</h3>
                             <p class="edu-program">Dual Enrollment Student</p>
                         </div>
-                        <p class="edu-date">Expected: May 2026</p>
                     </div>
                 </div>
 
-                <div class="edu-item">
+                <div class="edu-item edu-item-compact">
                     <div class="edu-header">
                         <div>
                             <h3>Santa Ana College</h3>
                             <p class="edu-program">Dual Enrollment Student</p>
                         </div>
-                        <p class="edu-date">Expected: May 2026</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p class="contact-tagline">Open to robotics, mechatronics, and hardware engineering opportunities. Reach out if you'd like to talk shop or collaborate.</p>
+            <div class="contact-info contact-info-centered">
+                <a href="mailto:yash.kathrani768@gmail.com">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    yash.kathrani768@gmail.com
+                </a>
+                <span>•</span>
+                <a href="tel:510-890-6370">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    510-890-6370
+                </a>
+                <span>•</span>
+                <a href="https://www.linkedin.com/in/yashkathrani/" target="_blank">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    LinkedIn
+                </a>
             </div>
         </div>
     </section>
