@@ -417,6 +417,37 @@ section {
     margin-bottom: 18px;
 }
 
+/* Award badge (used inline next to project/award titles) */
+.award {
+    display: inline-block;
+    background-color: var(--accent-tint);
+    color: var(--accent-dark);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+/* Tech/skill tag row (used across project cards) */
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.tech span {
+    background-color: var(--bg-alt);
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
 .pf-body .tech {
     margin-bottom: 22px;
 }
@@ -828,7 +859,7 @@ section {
     margin-top: 60px;
     margin-bottom: 40px;
 }
- 
+
 .awards-section h3 {
     color: var(--heading);
     font-size: 1.4rem;
